@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27B37A241BC8BCA70070DFBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37A231BC8BCA70070DFBF /* AppDelegate.swift */; };
+		27B37A261BC8BCA70070DFBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37A251BC8BCA70070DFBF /* ViewController.swift */; };
+		27B37A291BC8BCA70070DFBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B37A271BC8BCA70070DFBF /* Main.storyboard */; };
+		27B37A2B1BC8BCA70070DFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B37A2A1BC8BCA70070DFBF /* Assets.xcassets */; };
+		27B37A2E1BC8BCA70070DFBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B37A2C1BC8BCA70070DFBF /* LaunchScreen.storyboard */; };
+		27B37A391BC8BCA70070DFBF /* Weight_LoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37A381BC8BCA70070DFBF /* Weight_LoggerTests.swift */; };
+		27B37A441BC8BCA70070DFBF /* Weight_LoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37A431BC8BCA70070DFBF /* Weight_LoggerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27B37A351BC8BCA70070DFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27B37A181BC8BCA70070DFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27B37A1F1BC8BCA70070DFBF;
+			remoteInfo = "Weight Logger";
+		};
+		27B37A401BC8BCA70070DFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27B37A181BC8BCA70070DFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27B37A1F1BC8BCA70070DFBF;
+			remoteInfo = "Weight Logger";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27B37A201BC8BCA70070DFBF /* Weight Logger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weight Logger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B37A231BC8BCA70070DFBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27B37A251BC8BCA70070DFBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27B37A281BC8BCA70070DFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27B37A2A1BC8BCA70070DFBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27B37A2D1BC8BCA70070DFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27B37A2F1BC8BCA70070DFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B37A341BC8BCA70070DFBF /* Weight LoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weight LoggerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B37A381BC8BCA70070DFBF /* Weight_LoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_LoggerTests.swift; sourceTree = "<group>"; };
+		27B37A3A1BC8BCA70070DFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B37A3F1BC8BCA70070DFBF /* Weight LoggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weight LoggerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27B37A431BC8BCA70070DFBF /* Weight_LoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_LoggerUITests.swift; sourceTree = "<group>"; };
+		27B37A451BC8BCA70070DFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27B37A1D1BC8BCA70070DFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B37A311BC8BCA70070DFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B37A3C1BC8BCA70070DFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27B37A171BC8BCA70070DFBF = {
+			isa = PBXGroup;
+			children = (
+				27B37A221BC8BCA70070DFBF /* Weight Logger */,
+				27B37A371BC8BCA70070DFBF /* Weight LoggerTests */,
+				27B37A421BC8BCA70070DFBF /* Weight LoggerUITests */,
+				27B37A211BC8BCA70070DFBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27B37A211BC8BCA70070DFBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27B37A201BC8BCA70070DFBF /* Weight Logger.app */,
+				27B37A341BC8BCA70070DFBF /* Weight LoggerTests.xctest */,
+				27B37A3F1BC8BCA70070DFBF /* Weight LoggerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27B37A221BC8BCA70070DFBF /* Weight Logger */ = {
+			isa = PBXGroup;
+			children = (
+				27B37A231BC8BCA70070DFBF /* AppDelegate.swift */,
+				27B37A251BC8BCA70070DFBF /* ViewController.swift */,
+				27B37A271BC8BCA70070DFBF /* Main.storyboard */,
+				27B37A2A1BC8BCA70070DFBF /* Assets.xcassets */,
+				27B37A2C1BC8BCA70070DFBF /* LaunchScreen.storyboard */,
+				27B37A2F1BC8BCA70070DFBF /* Info.plist */,
+			);
+			path = "Weight Logger";
+			sourceTree = "<group>";
+		};
+		27B37A371BC8BCA70070DFBF /* Weight LoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				27B37A381BC8BCA70070DFBF /* Weight_LoggerTests.swift */,
+				27B37A3A1BC8BCA70070DFBF /* Info.plist */,
+			);
+			path = "Weight LoggerTests";
+			sourceTree = "<group>";
+		};
+		27B37A421BC8BCA70070DFBF /* Weight LoggerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27B37A431BC8BCA70070DFBF /* Weight_LoggerUITests.swift */,
+				27B37A451BC8BCA70070DFBF /* Info.plist */,
+			);
+			path = "Weight LoggerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27B37A1F1BC8BCA70070DFBF /* Weight Logger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B37A481BC8BCA70070DFBF /* Build configuration list for PBXNativeTarget "Weight Logger" */;
+			buildPhases = (
+				27B37A1C1BC8BCA70070DFBF /* Sources */,
+				27B37A1D1BC8BCA70070DFBF /* Frameworks */,
+				27B37A1E1BC8BCA70070DFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weight Logger";
+			productName = "Weight Logger";
+			productReference = 27B37A201BC8BCA70070DFBF /* Weight Logger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27B37A331BC8BCA70070DFBF /* Weight LoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B37A4B1BC8BCA70070DFBF /* Build configuration list for PBXNativeTarget "Weight LoggerTests" */;
+			buildPhases = (
+				27B37A301BC8BCA70070DFBF /* Sources */,
+				27B37A311BC8BCA70070DFBF /* Frameworks */,
+				27B37A321BC8BCA70070DFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27B37A361BC8BCA70070DFBF /* PBXTargetDependency */,
+			);
+			name = "Weight LoggerTests";
+			productName = "Weight LoggerTests";
+			productReference = 27B37A341BC8BCA70070DFBF /* Weight LoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27B37A3E1BC8BCA70070DFBF /* Weight LoggerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B37A4E1BC8BCA70070DFBF /* Build configuration list for PBXNativeTarget "Weight LoggerUITests" */;
+			buildPhases = (
+				27B37A3B1BC8BCA70070DFBF /* Sources */,
+				27B37A3C1BC8BCA70070DFBF /* Frameworks */,
+				27B37A3D1BC8BCA70070DFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27B37A411BC8BCA70070DFBF /* PBXTargetDependency */,
+			);
+			name = "Weight LoggerUITests";
+			productName = "Weight LoggerUITests";
+			productReference = 27B37A3F1BC8BCA70070DFBF /* Weight LoggerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27B37A181BC8BCA70070DFBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Chris Archibald";
+				TargetAttributes = {
+					27B37A1F1BC8BCA70070DFBF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					27B37A331BC8BCA70070DFBF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 27B37A1F1BC8BCA70070DFBF;
+					};
+					27B37A3E1BC8BCA70070DFBF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 27B37A1F1BC8BCA70070DFBF;
+					};
+				};
+			};
+			buildConfigurationList = 27B37A1B1BC8BCA70070DFBF /* Build configuration list for PBXProject "Weight Logger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27B37A171BC8BCA70070DFBF;
+			productRefGroup = 27B37A211BC8BCA70070DFBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27B37A1F1BC8BCA70070DFBF /* Weight Logger */,
+				27B37A331BC8BCA70070DFBF /* Weight LoggerTests */,
+				27B37A3E1BC8BCA70070DFBF /* Weight LoggerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27B37A1E1BC8BCA70070DFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B37A2E1BC8BCA70070DFBF /* LaunchScreen.storyboard in Resources */,
+				27B37A2B1BC8BCA70070DFBF /* Assets.xcassets in Resources */,
+				27B37A291BC8BCA70070DFBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B37A321BC8BCA70070DFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B37A3D1BC8BCA70070DFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27B37A1C1BC8BCA70070DFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B37A261BC8BCA70070DFBF /* ViewController.swift in Sources */,
+				27B37A241BC8BCA70070DFBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B37A301BC8BCA70070DFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B37A391BC8BCA70070DFBF /* Weight_LoggerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27B37A3B1BC8BCA70070DFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B37A441BC8BCA70070DFBF /* Weight_LoggerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27B37A361BC8BCA70070DFBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27B37A1F1BC8BCA70070DFBF /* Weight Logger */;
+			targetProxy = 27B37A351BC8BCA70070DFBF /* PBXContainerItemProxy */;
+		};
+		27B37A411BC8BCA70070DFBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27B37A1F1BC8BCA70070DFBF /* Weight Logger */;
+			targetProxy = 27B37A401BC8BCA70070DFBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27B37A271BC8BCA70070DFBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27B37A281BC8BCA70070DFBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27B37A2C1BC8BCA70070DFBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27B37A2D1BC8BCA70070DFBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27B37A461BC8BCA70070DFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27B37A471BC8BCA70070DFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27B37A491BC8BCA70070DFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Weight Logger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ogrebear.Weight-Logger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27B37A4A1BC8BCA70070DFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Weight Logger/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ogrebear.Weight-Logger";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27B37A4C1BC8BCA70070DFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Weight LoggerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ogrebear.Weight-LoggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weight Logger.app/Weight Logger";
+			};
+			name = Debug;
+		};
+		27B37A4D1BC8BCA70070DFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Weight LoggerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ogrebear.Weight-LoggerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weight Logger.app/Weight Logger";
+			};
+			name = Release;
+		};
+		27B37A4F1BC8BCA70070DFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Weight LoggerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ogrebear.Weight-LoggerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Weight Logger";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		27B37A501BC8BCA70070DFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Weight LoggerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ogrebear.Weight-LoggerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Weight Logger";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27B37A1B1BC8BCA70070DFBF /* Build configuration list for PBXProject "Weight Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B37A461BC8BCA70070DFBF /* Debug */,
+				27B37A471BC8BCA70070DFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27B37A481BC8BCA70070DFBF /* Build configuration list for PBXNativeTarget "Weight Logger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B37A491BC8BCA70070DFBF /* Debug */,
+				27B37A4A1BC8BCA70070DFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27B37A4B1BC8BCA70070DFBF /* Build configuration list for PBXNativeTarget "Weight LoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B37A4C1BC8BCA70070DFBF /* Debug */,
+				27B37A4D1BC8BCA70070DFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27B37A4E1BC8BCA70070DFBF /* Build configuration list for PBXNativeTarget "Weight LoggerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B37A4F1BC8BCA70070DFBF /* Debug */,
+				27B37A501BC8BCA70070DFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27B37A181BC8BCA70070DFBF /* Project object */;
+}
