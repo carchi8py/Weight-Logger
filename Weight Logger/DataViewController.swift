@@ -20,12 +20,12 @@ class DataViewController: UIViewController {
         super.viewDidLoad()
         
         print("DataViewControler.viewDidLoad")
-        print(weight)
+
         if let weight = weight {
-            print("Weight set")
             WeightTextField.text = "\(weight)"
-        } else {
-            print("No Weight Set")
+        }
+        if let date = date {
+            datePicker.date = date
         }
     }
 
