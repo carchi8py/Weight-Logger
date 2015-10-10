@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="558" y="849"/>
         </scene>
-        <!--View Controller-->
+        <!--Data View Controller-->
         <scene sceneID="dv3-v2-Szw">
             <objects>
-                <viewController id="xiH-Oo-fxn" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DataViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xiH-Oo-fxn" customClass="DataViewController" customModule="Weight_Logger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4jH-Dr-K7g"/>
                         <viewControllerLayoutGuide type="bottom" id="xyS-VN-WVV"/>
@@ -93,6 +93,9 @@
                                 <rect key="frame" x="20" y="20" width="37" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Done"/>
+                                <connections>
+                                    <segue destination="nJN-RR-Ga3" kind="unwind" unwindAction="unwrapToViewController:" id="YT9-t0-LBd"/>
+                                </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="eG1-iS-sMV">
                                 <rect key="frame" x="0.0" y="87" width="600" height="216"/>
@@ -121,6 +124,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e28-sv-Az3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="nJN-RR-Ga3" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1217" y="849"/>
         </scene>
