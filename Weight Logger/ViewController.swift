@@ -20,8 +20,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func unwrapToViewController(segue: UIStoryboardSegue) {
+    // This function let seqay back to this view.
+    @IBAction func unwindToViewController(segue: UIStoryboardSegue) {
         print("ViewContoller.unwrapped")
+    }
+    
+    // This function let us set up properties or setting
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let dataViewController = segue.destinationViewController as? DataViewController {
+            print("ViewController.preparing DataviewController")
+            dataViewController.view.backgroundColor = UIColor.blueColor()
+        }
     }
 }
 
