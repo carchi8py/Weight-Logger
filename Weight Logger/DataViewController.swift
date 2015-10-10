@@ -20,16 +20,12 @@ class DataViewController: UIViewController {
     //When we change our property through code (and viewDidLoad didn't call we want to do this so we don't get stale data
     var weight: Double? {
         didSet{
-            if let weight = weight {
-                WeightTextField?.text = "\(weight)"
-            }
+            updateUI()
         }
     }
     var date: NSDate? {
         didSet {
-            if let date = date {
-                datePicker?.date = date
-            }
+            updateUI()
         }
     }
     
@@ -42,19 +38,22 @@ class DataViewController: UIViewController {
         super.viewDidLoad()
         
         print("DataViewControler.viewDidLoad")
-        print(weight)
 
-        if let weight = weight {
-            WeightTextField.text = "\(weight)"
-        }
-        if let date = date {
-            datePicker.date = date
-        }
+        updateUI()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func updateUI() {
+        if let weight = weight {
+            WeightTextField?.text = "\(weight)"
+        }
+        if let date = date {
+            datePicker?.date = date
+        }
     }
     
 
