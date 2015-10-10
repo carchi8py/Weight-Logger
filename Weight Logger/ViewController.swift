@@ -29,7 +29,8 @@ class ViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if let dataViewController = segue.destinationViewController as? DataViewController {
             print("ViewController.preparing DataviewController")
-            dataViewController.view.backgroundColor = UIColor.blueColor()
+            //dataViewController.view.backgroundColor = UIColor.lightGrayColor()
+            dataViewController.weight = 150.0
         }
     }
 }

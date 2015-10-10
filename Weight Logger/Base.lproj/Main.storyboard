@@ -122,6 +122,10 @@
                             <constraint firstItem="G0a-kk-ORl" firstAttribute="centerY" secondItem="oOL-7x-kPa" secondAttribute="centerY" id="wFD-wc-HYF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="WeightTextField" destination="G0a-kk-ORl" id="d43-dy-RtS"/>
+                        <outlet property="datePicker" destination="eG1-iS-sMV" id="vaJ-Zu-vLl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e28-sv-Az3" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="nJN-RR-Ga3" userLabel="Exit" sceneMemberID="exit"/>
