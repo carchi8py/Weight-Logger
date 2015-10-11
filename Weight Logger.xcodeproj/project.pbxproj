@@ -15,6 +15,7 @@
 		27B37A391BC8BCA70070DFBF /* Weight_LoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37A381BC8BCA70070DFBF /* Weight_LoggerTests.swift */; };
 		27B37A441BC8BCA70070DFBF /* Weight_LoggerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37A431BC8BCA70070DFBF /* Weight_LoggerUITests.swift */; };
 		27B37A521BC8C0420070DFBF /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37A511BC8C0420070DFBF /* DataViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		27B37A541BCA0DF00070DFBF /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37A531BCA0DF00070DFBF /* OtherViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		27B37A431BC8BCA70070DFBF /* Weight_LoggerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight_LoggerUITests.swift; sourceTree = "<group>"; };
 		27B37A451BC8BCA70070DFBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27B37A511BC8C0420070DFBF /* DataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		27B37A531BCA0DF00070DFBF /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				27B37A2A1BC8BCA70070DFBF /* Assets.xcassets */,
 				27B37A2C1BC8BCA70070DFBF /* LaunchScreen.storyboard */,
 				27B37A2F1BC8BCA70070DFBF /* Info.plist */,
+				27B37A531BCA0DF00070DFBF /* OtherViewController.swift */,
 			);
 			path = "Weight Logger";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27B37A261BC8BCA70070DFBF /* ViewController.swift in Sources */,
+				27B37A541BCA0DF00070DFBF /* OtherViewController.swift in Sources */,
 				27B37A521BC8C0420070DFBF /* DataViewController.swift in Sources */,
 				27B37A241BC8BCA70070DFBF /* AppDelegate.swift in Sources */,
 			);

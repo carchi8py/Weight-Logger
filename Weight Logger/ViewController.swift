@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, DataViewControllerDelegate {
 
+    @IBOutlet weak var textView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -38,10 +40,28 @@ class ViewController: UIViewController, DataViewControllerDelegate {
         }
     }
     
+    @IBAction func otherButtonPressed(sender: AnyObject) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let otherViewController = storyboard.instantiateViewControllerWithIdentifier("OtherViewController") as! OtherViewController
+        
+        presentViewController(otherViewController, animated: true, completion: nil)
+    }
+    
     //Delegate methods for DataViewController
     
     func dataViewController(dataViewController: DataViewController, didPickDate date: NSDate, weight: Double) {
         print("View Controller.dataviewController.didPIckDate")
+        
+        var massFormatter = NSMassFormatter()
+        let weightString = massFormatter.stringFromValue(weight, unit: NSMassFormatterUnit.Pound)
+        
+        let dateFormtter = NSDateFormatter()
+        dateFormtter.dateStyle = NSDateFormatterStyle.LongStyle
+        let dataString = dateFormtter.stringFromDate(date)
+        
+        textView.text! += "\(dataString) weight: \(weightString)\n"
+
     }
     
     func dataViewControllerDidCancel(dataViewController: DataViewController) {

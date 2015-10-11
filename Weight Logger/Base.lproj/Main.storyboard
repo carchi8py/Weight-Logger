@@ -38,10 +38,19 @@
                                     <segue destination="xiH-Oo-fxn" kind="show" identifier="dateViewControllerSegue" id="5Ks-rU-zcy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H47-HA-nMz">
+                                <rect key="frame" x="535" y="17" width="44" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Other "/>
+                                <connections>
+                                    <action selector="otherButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O5Q-QM-aJc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="H47-HA-nMz" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-3" id="19p-E2-IFN"/>
                             <constraint firstAttribute="leadingMargin" secondItem="YXu-Ov-HMt" secondAttribute="leading" id="THD-i3-MvL"/>
                             <constraint firstItem="VgT-qc-DI3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UyE-Kd-rq5"/>
                             <constraint firstItem="YXu-Ov-HMt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="VYM-kx-f0j"/>
@@ -49,9 +58,13 @@
                             <constraint firstItem="VgT-qc-DI3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bkm-Np-NH8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="NCY-s5-ZcP" secondAttribute="trailing" id="ci8-1p-HjP"/>
                             <constraint firstItem="NCY-s5-ZcP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-5" id="pvZ-fy-VWL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H47-HA-nMz" secondAttribute="trailing" constant="1" id="qwW-3v-4i9"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NCY-s5-ZcP" secondAttribute="bottom" constant="13" id="zSZ-AD-BJD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="NCY-s5-ZcP" id="k0J-9x-RvS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -131,6 +144,39 @@
                 <exit id="nJN-RR-Ga3" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1217" y="849"/>
+        </scene>
+        <!--Other View Controller-->
+        <scene sceneID="Za6-Hn-Gih">
+            <objects>
+                <viewController storyboardIdentifier="OtherViewController" id="e9s-jM-38J" customClass="OtherViewController" customModule="Weight_Logger" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QFA-fP-ozX"/>
+                        <viewControllerLayoutGuide type="bottom" id="V4t-Jf-zdK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5u9-ty-To0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82N-MG-5SS">
+                                <rect key="frame" x="25" y="20" width="37" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="doneButtonPressed:" destination="e9s-jM-38J" eventType="touchUpInside" id="RJQ-rs-TsZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="82N-MG-5SS" firstAttribute="leading" secondItem="5u9-ty-To0" secondAttribute="leadingMargin" constant="5" id="6ke-jq-oaa"/>
+                            <constraint firstItem="82N-MG-5SS" firstAttribute="top" secondItem="QFA-fP-ozX" secondAttribute="bottom" id="lgh-pH-nFh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hG3-IB-REj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="558" y="1525"/>
         </scene>
     </scenes>
 </document>
