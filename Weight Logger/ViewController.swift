@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, DataViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,11 +30,23 @@ class ViewController: UIViewController {
         if let dataViewController = segue.destinationViewController as? DataViewController {
             print("ViewController.preparing DataviewController")
             
+            dataViewController.delegate = self
             //dataViewController.view.backgroundColor = UIColor.lightGrayColor()
             dataViewController.weight = 150.0
             dataViewController.date = NSDate(timeIntervalSinceNow: -60*60*24*3)
             
         }
     }
+    
+    //Delegate methods for DataViewController
+    
+    func dataViewController(dataViewController: DataViewController, didPickDate date: NSDate, weight: Double) {
+        print("View Controller.dataviewController.didPIckDate")
+    }
+    
+    func dataViewControllerDidCancel(dataViewController: DataViewController) {
+        print("View Controller.dataview Controller.cancle")
+    }
 }
+
 
